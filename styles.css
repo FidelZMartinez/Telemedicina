@@ -1,0 +1,21 @@
+/* Estilos personalizados */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.inicio-hover {
+  transition: background-color 0.5s;
+}
+
+.inicio-hover:hover {
+  background-color: #add8e6; /* Azul claro */
+  transition: background-color 0.5s;
+}

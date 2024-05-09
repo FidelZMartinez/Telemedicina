@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plataforma de Telemedicina</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="bg-info text-white p-4">
+    <div class="container">
+      <h1>Plataforma de Telemedicina</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link text-white" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="inicio" class="py-5 bg-light inicio-hover">
+    <div class="container">
+      <h2>Bienvenido a nuestra plataforma de telemedicina</h2>
+      <p>Ofrecemos consultas virtuales, monitoreo de salud, registros médicos electrónicos y servicios de farmacia en línea.</p>
+    </div>
+  </section>
+
+  <section id="servicios" class="py-5 bg-light">
+    <div class="container">
+      <h2>Nuestros Servicios</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="servicio1.jpg" alt="Consulta Virtual" class="img-fluid">
+          <h3>Consulta Virtual</h3>
+          <p>Consulte con profesionales de la salud desde la comodidad de su hogar.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="servicio2.jpg" alt="Monitoreo de Salud" class="img-fluid">
+          <h3>Monitoreo de Salud</h3>
+          <p>Mantenga un seguimiento de su salud con dispositivos de monitoreo remoto.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="servicio3.jpg" alt="Registros Médicos Electrónicos" class="img-fluid">
+          <h3>Registros Médicos Electrónicos</h3>
+          <p>Acceda a sus registros médicos de forma segura desde cualquier lugar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="py-5 bg-light">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>Por favor, complete el siguiente formulario y nos pondremos en contacto con usted lo antes posible.</p>
+      <form id="contacto-form">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" class="form-control" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-info text-white p-3">
+    <div class="container">
+      <p>Derechos de autor &copy; 2024 Plataforma de Telemedicina</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
